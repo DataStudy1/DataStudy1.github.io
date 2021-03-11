@@ -1,0 +1,1096 @@
+<!-- udacimak v1.4.1 -->
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <meta content="ie=edge" http-equiv="X-UA-Compatible"/>
+  <title>
+   Python 案例研究
+  </title>
+  <link href="../assets/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="../assets/css/plyr.css" rel="stylesheet"/>
+  <link href="../assets/css/katex.min.css" rel="stylesheet"/>
+  <link href="../assets/css/jquery.mCustomScrollbar.min.css" rel="stylesheet"/>
+  <link href="../assets/css/styles.css" rel="stylesheet"/>
+  <link href="../assets/img/udacimak.png" rel="shortcut icon" type="image/png">
+  </link>
+ </head>
+ <body>
+  <div class="wrapper">
+   <nav id="sidebar">
+    <div class="sidebar-header">
+     <h3>
+      录取案例分析
+     </h3>
+    </div>
+    <ul class="sidebar-list list-unstyled CTAs">
+     <li>
+      <a class="article" href="../index.html">
+       Back to Home
+      </a>
+     </li>
+    </ul>
+    <ul class="sidebar-list list-unstyled components">
+     <li class="">
+      <a href="01. 录取案例分析介绍.html">
+       01. 录取案例分析介绍
+      </a>
+     </li>
+     <li class="">
+      <a href="02. 录取 1.html">
+       02. 录取 1
+      </a>
+     </li>
+     <li class="">
+      <a href="03. 录取 2.html">
+       03. 录取 2
+      </a>
+     </li>
+     <li class="">
+      <a href="04. 录取 3.html">
+       04. 录取 3
+      </a>
+     </li>
+     <li class="">
+      <a href="05. 录取 4.html">
+       05. 录取 4
+      </a>
+     </li>
+     <li class="">
+      <a href="06. 性别偏见.html">
+       06. 性别偏见
+      </a>
+     </li>
+     <li class="">
+      <a href="07. 集合体.html">
+       07. 集合体
+      </a>
+     </li>
+     <li class="">
+      <a href="08. 集合体 2.html">
+       08. 集合体 2
+      </a>
+     </li>
+     <li class="">
+      <a href="09. 集合体 3.html">
+       09. 集合体 3
+      </a>
+     </li>
+     <li class="">
+      <a href="10. 性别偏见再次访问.html">
+       10. 性别偏见再次访问
+      </a>
+     </li>
+     <li class="">
+      <a href="11. 统计学的危险.html">
+       11. 统计学的危险
+      </a>
+     </li>
+     <li class="">
+      <a href="12. Python 案例研究.html">
+       12. Python 案例研究
+      </a>
+     </li>
+     <li class="">
+      <a href="13. 总结.html">
+       13. 总结
+      </a>
+     </li>
+     <li class="">
+      <a href="14. 文本：回顾 + 下一步.html">
+       14. 文本：回顾 + 下一步
+      </a>
+     </li>
+    </ul>
+    <ul class="sidebar-list list-unstyled CTAs">
+     <li>
+      <a class="article" href="../index.html">
+       Back to Home
+      </a>
+     </li>
+    </ul>
+   </nav>
+   <div id="content">
+    <header class="container-fluild header">
+     <div class="container">
+      <div class="row">
+       <div class="col-12">
+        <div class="align-items-middle">
+         <button class="btn btn-toggle-sidebar" id="sidebarCollapse" type="button">
+          <div>
+          </div>
+          <div>
+          </div>
+          <div>
+          </div>
+         </button>
+         <h1 style="display: inline-block">
+          12. Python 案例研究
+         </h1>
+        </div>
+       </div>
+      </div>
+     </div>
+    </header>
+    <main class="container">
+     <div class="row">
+      <div class="col-12">
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <h1 id="python-案例研究">
+          Python 案例研究
+         </h1>
+         <p>
+          使用 Jupyter 记事本分析
+          <code>
+           admission_data.csv
+          </code>
+          查找下列数值 解决下列小测验
+         </p>
+         <p>
+          1.每个性别的比例和录取率
+          <br/>
+          2.物理专业每个性别的比例和录取率
+          <br/>
+          3.化学专业每个性别的比例和录取率
+          <br/>
+          4.每个专业的录取率
+         </p>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div class="jumbotron">
+         <h3>
+          Workspace
+         </h3>
+         <p class="lead">
+          This section contains either a workspace (it can be a
+          <a href="http://jupyter.org/" target="_blank">
+           Jupyter
+      Notebook
+          </a>
+          workspace or an online code editor work space, etc.) and it cannot be automatically downloaded to be
+    generated here. Please access the classroom with your account and manually download the workspace to your local
+    machine. Note that for some courses, Udacity upload the workspace files onto
+          <a href="https://github.com/udacity" target="_blank">
+           https://github.com/udacity
+          </a>
+          , so you may be able to download them there.
+         </p>
+         <h4>
+          Workspace Information:
+         </h4>
+         <ul>
+          <li>
+           <strong>
+            Default file path:
+           </strong>
+          </li>
+          <li>
+           <strong>
+            Workspace type:
+           </strong>
+           jupyter
+          </li>
+          <li>
+           <strong>
+            Opened files (when workspace is loaded):
+           </strong>
+           n/a
+          </li>
+         </ul>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <p>
+          <strong>
+           QUIZ QUESTION:
+          </strong>
+          :
+          <p>
+           匹配正确数值
+          </p>
+         </p>
+         <p>
+          <strong>
+           ANSWER CHOICES:
+          </strong>
+         </p>
+         <button class="btn btn-primary">
+          <p>
+           女生比例
+          </p>
+         </button>
+         <button class="btn btn-primary">
+          <p>
+           男生比例
+          </p>
+         </button>
+         <button class="btn btn-primary">
+          <p>
+           女生录取率
+          </p>
+         </button>
+         <button class="btn btn-primary">
+          <p>
+           男生录取率
+          </p>
+         </button>
+         <br/>
+         <br/>
+         <table class="table">
+          <tr class="thead-dark table-hover">
+           <th>
+            <p>
+             特征
+            </p>
+           </th>
+           <th>
+            <p>
+             数值
+            </p>
+           </th>
+          </tr>
+          <tr>
+           <td>
+            <p>
+             0.514
+            </p>
+           </td>
+           <td>
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <p>
+             0.485597
+            </p>
+           </td>
+           <td>
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <p>
+             0.287938
+            </p>
+           </td>
+           <td>
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <p>
+             0.486
+            </p>
+           </td>
+           <td>
+           </td>
+          </tr>
+         </table>
+         <details>
+          <summary>
+           <strong>
+            SOLUTION:
+           </strong>
+          </summary>
+          <table class="table">
+           <tr class="thead-dark table-hover">
+            <th>
+             <p>
+              特征
+             </p>
+            </th>
+            <th>
+             <p>
+              数值
+             </p>
+            </th>
+           </tr>
+           <tr>
+            <td>
+             <p>
+              0.514
+             </p>
+            </td>
+            <td>
+             <button class="btn btn-primary">
+              <p>
+               女生比例
+              </p>
+             </button>
+            </td>
+           </tr>
+           <tr>
+            <td>
+             <p>
+              0.485597
+             </p>
+            </td>
+            <td>
+             <button class="btn btn-primary">
+              <p>
+               男生录取率
+              </p>
+             </button>
+            </td>
+           </tr>
+           <tr>
+            <td>
+             <p>
+              0.287938
+             </p>
+            </td>
+            <td>
+             <button class="btn btn-primary">
+              <p>
+               女生录取率
+              </p>
+             </button>
+            </td>
+           </tr>
+           <tr>
+            <td>
+             <p>
+              0.486
+             </p>
+            </td>
+            <td>
+             <button class="btn btn-primary">
+              <p>
+               男生比例
+              </p>
+             </button>
+            </td>
+           </tr>
+          </table>
+         </details>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <form>
+          <fieldset>
+           <legend>
+            <p>
+             只通过观察性别和录取率，哪些人可能在录取过程中得到青睐呢？
+            </p>
+           </legend>
+          </fieldset>
+          <div>
+           <input id="a1507676754251" name="461601" type="radio" value="a1507676754251"/>
+           <label for="a1507676754251">
+            <p>
+             女
+            </p>
+           </label>
+          </div>
+          <div>
+           <input id="a1507676797258" name="461601" type="radio" value="a1507676797258"/>
+           <label for="a1507676797258">
+            <p>
+             男
+            </p>
+           </label>
+          </div>
+         </form>
+         <details>
+          <summary>
+           <strong>
+            SOLUTION:
+           </strong>
+          </summary>
+          男
+         </details>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <p>
+          <strong>
+           QUIZ QUESTION:
+          </strong>
+          :
+          <p>
+           匹配正确数值
+          </p>
+         </p>
+         <p>
+          <strong>
+           ANSWER CHOICES:
+          </strong>
+         </p>
+         <button class="btn btn-primary">
+          <p>
+           女生中物理专业的比例
+          </p>
+         </button>
+         <button class="btn btn-primary">
+          <p>
+           男生中物理专业的比例
+          </p>
+         </button>
+         <button class="btn btn-primary">
+          <p>
+           物理专业女生录取率
+          </p>
+         </button>
+         <button class="btn btn-primary">
+          <p>
+           物理专业男生录取率
+          </p>
+         </button>
+         <br/>
+         <br/>
+         <table class="table">
+          <tr class="thead-dark table-hover">
+           <th>
+            <p>
+             特征
+            </p>
+           </th>
+           <th>
+            <p>
+             数值
+            </p>
+           </th>
+          </tr>
+          <tr>
+           <td>
+            <p>
+             0.926
+            </p>
+           </td>
+           <td>
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <p>
+             0.742
+            </p>
+           </td>
+           <td>
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <p>
+             0.516
+            </p>
+           </td>
+           <td>
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <p>
+             0.121
+            </p>
+           </td>
+           <td>
+           </td>
+          </tr>
+         </table>
+         <details>
+          <summary>
+           <strong>
+            SOLUTION:
+           </strong>
+          </summary>
+          <table class="table">
+           <tr class="thead-dark table-hover">
+            <th>
+             <p>
+              特征
+             </p>
+            </th>
+            <th>
+             <p>
+              数值
+             </p>
+            </th>
+           </tr>
+           <tr>
+            <td>
+             <p>
+              0.926
+             </p>
+            </td>
+            <td>
+             <button class="btn btn-primary">
+              <p>
+               男生中物理专业的比例
+              </p>
+             </button>
+            </td>
+           </tr>
+           <tr>
+            <td>
+             <p>
+              0.742
+             </p>
+            </td>
+            <td>
+             <button class="btn btn-primary">
+              <p>
+               物理专业女生录取率
+              </p>
+             </button>
+            </td>
+           </tr>
+           <tr>
+            <td>
+             <p>
+              0.516
+             </p>
+            </td>
+            <td>
+             <button class="btn btn-primary">
+              <p>
+               物理专业男生录取率
+              </p>
+             </button>
+            </td>
+           </tr>
+           <tr>
+            <td>
+             <p>
+              0.121
+             </p>
+            </td>
+            <td>
+             <button class="btn btn-primary">
+              <p>
+               女生中物理专业的比例
+              </p>
+             </button>
+            </td>
+           </tr>
+          </table>
+         </details>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <form>
+          <fieldset>
+           <legend>
+            <p>
+             在申请物理专业的学生中，哪些人可能在录取过程中受到青睐呢？
+            </p>
+           </legend>
+          </fieldset>
+          <div>
+           <input id="a1507676869122" name="461613" type="radio" value="a1507676869122"/>
+           <label for="a1507676869122">
+            <p>
+             女
+            </p>
+           </label>
+          </div>
+          <div>
+           <input id="a1507676919217" name="461613" type="radio" value="a1507676919217"/>
+           <label for="a1507676919217">
+            <p>
+             男
+            </p>
+           </label>
+          </div>
+         </form>
+         <details>
+          <summary>
+           <strong>
+            SOLUTION:
+           </strong>
+          </summary>
+          女
+         </details>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <form>
+          <fieldset>
+           <legend>
+            <p>
+             相比化学专业，哪些人可能倾向于物理专业呢？
+            </p>
+           </legend>
+          </fieldset>
+          <div>
+           <input id="a1507676968887" name="461617" type="radio" value="a1507676968887"/>
+           <label for="a1507676968887">
+            <p>
+             女
+            </p>
+           </label>
+          </div>
+          <div>
+           <input id="a1507676993320" name="461617" type="radio" value="a1507676993320"/>
+           <label for="a1507676993320">
+            <p>
+             男
+            </p>
+           </label>
+          </div>
+         </form>
+         <details>
+          <summary>
+           <strong>
+            SOLUTION:
+           </strong>
+          </summary>
+          男
+         </details>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <p>
+          <strong>
+           QUIZ QUESTION:
+          </strong>
+          :
+          <p>
+           匹配正确数值
+          </p>
+         </p>
+         <p>
+          <strong>
+           ANSWER CHOICES:
+          </strong>
+         </p>
+         <button class="btn btn-primary">
+          <p>
+           女生中化学专业的比例
+          </p>
+         </button>
+         <button class="btn btn-primary">
+          <p>
+           男生中化学专业的比例
+          </p>
+         </button>
+         <button class="btn btn-primary">
+          <p>
+           化学专业女生录取率
+          </p>
+         </button>
+         <button class="btn btn-primary">
+          <p>
+           化学专业男生录取率
+          </p>
+         </button>
+         <br/>
+         <br/>
+         <table class="table">
+          <tr class="thead-dark table-hover">
+           <th>
+            <p>
+             特征
+            </p>
+           </th>
+           <th>
+            <p>
+             数值
+            </p>
+           </th>
+          </tr>
+          <tr>
+           <td>
+            <p>
+             0.074
+            </p>
+           </td>
+           <td>
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <p>
+             0.111
+            </p>
+           </td>
+           <td>
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <p>
+             0.226
+            </p>
+           </td>
+           <td>
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <p>
+             0.879
+            </p>
+           </td>
+           <td>
+           </td>
+          </tr>
+         </table>
+         <details>
+          <summary>
+           <strong>
+            SOLUTION:
+           </strong>
+          </summary>
+          <table class="table">
+           <tr class="thead-dark table-hover">
+            <th>
+             <p>
+              特征
+             </p>
+            </th>
+            <th>
+             <p>
+              数值
+             </p>
+            </th>
+           </tr>
+           <tr>
+            <td>
+             <p>
+              0.074
+             </p>
+            </td>
+            <td>
+             <button class="btn btn-primary">
+              <p>
+               男生中化学专业的比例
+              </p>
+             </button>
+            </td>
+           </tr>
+           <tr>
+            <td>
+             <p>
+              0.111
+             </p>
+            </td>
+            <td>
+             <button class="btn btn-primary">
+              <p>
+               化学专业男生录取率
+              </p>
+             </button>
+            </td>
+           </tr>
+           <tr>
+            <td>
+             <p>
+              0.226
+             </p>
+            </td>
+            <td>
+             <button class="btn btn-primary">
+              <p>
+               化学专业女生录取率
+              </p>
+             </button>
+            </td>
+           </tr>
+           <tr>
+            <td>
+             <p>
+              0.879
+             </p>
+            </td>
+            <td>
+             <button class="btn btn-primary">
+              <p>
+               女生中化学专业的比例
+              </p>
+             </button>
+            </td>
+           </tr>
+          </table>
+         </details>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <form>
+          <fieldset>
+           <legend>
+            <p>
+             在申请化学专业的学生中，哪些人可能在录取过程中受到青睐呢？
+            </p>
+           </legend>
+          </fieldset>
+          <div>
+           <input id="a1507677169059" name="461626" type="radio" value="a1507677169059"/>
+           <label for="a1507677169059">
+            <p>
+             女
+            </p>
+           </label>
+          </div>
+          <div>
+           <input id="a1507677178067" name="461626" type="radio" value="a1507677178067"/>
+           <label for="a1507677178067">
+            <p>
+             男
+            </p>
+           </label>
+          </div>
+         </form>
+         <details>
+          <summary>
+           <strong>
+            SOLUTION:
+           </strong>
+          </summary>
+          女
+         </details>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <form>
+          <fieldset>
+           <legend>
+            <p>
+             相比物理专业，哪些人可能更倾向选择化学专业呢？
+            </p>
+           </legend>
+          </fieldset>
+          <div>
+           <input id="a1507677221337" name="461627" type="radio" value="a1507677221337"/>
+           <label for="a1507677221337">
+            <p>
+             女
+            </p>
+           </label>
+          </div>
+          <div>
+           <input id="a1507677233521" name="461627" type="radio" value="a1507677233521"/>
+           <label for="a1507677233521">
+            <p>
+             男
+            </p>
+           </label>
+          </div>
+         </form>
+         <details>
+          <summary>
+           <strong>
+            SOLUTION:
+           </strong>
+          </summary>
+          女
+         </details>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <form>
+          <fieldset>
+           <legend>
+            <p>
+             哪个专业录取率更低？
+            </p>
+           </legend>
+          </fieldset>
+          <div>
+           <input id="a1507677362346" name="461629" type="radio" value="a1507677362346"/>
+           <label for="a1507677362346">
+            <p>
+             物理
+            </p>
+           </label>
+          </div>
+          <div>
+           <input id="a1507677381264" name="461629" type="radio" value="a1507677381264"/>
+           <label for="a1507677381264">
+            <p>
+             化学
+            </p>
+           </label>
+          </div>
+         </form>
+         <details>
+          <summary>
+           <strong>
+            SOLUTION:
+           </strong>
+          </summary>
+          化学
+         </details>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+         <p>
+          延伸思考
+         </p>
+        </h3>
+        <div>
+         <p>
+          <strong>
+           QUESTION:
+          </strong>
+         </p>
+         <p>
+          花一些时间组织并解释刚才发生的。
+         </p>
+         <details>
+          <summary>
+           <strong>
+            ANSWER:
+           </strong>
+          </summary>
+          <p>
+           <p>
+            你能想到辛普森悖论出现的其他情况吗？
+           </p>
+          </p>
+         </details>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+      </div>
+      <div class="col-12">
+       <p class="text-right">
+        <a class="btn btn-outline-primary mt-4" href="13. 总结.html" role="button">
+         Next Concept
+        </a>
+       </p>
+      </div>
+     </div>
+    </main>
+    <footer class="footer">
+     <div class="container">
+      <div class="row">
+       <div class="col-12">
+        <p class="text-center">
+         udacity2.0 If you need the newest courses Plase add me wechat: udacity6
+        </p>
+       </div>
+      </div>
+     </div>
+    </footer>
+   </div>
+  </div>
+  <script src="../assets/js/jquery-3.3.1.min.js">
+  </script>
+  <script src="../assets/js/plyr.polyfilled.min.js">
+  </script>
+  <script src="../assets/js/bootstrap.min.js">
+  </script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js">
+  </script>
+  <script src="../assets/js/katex.min.js">
+  </script>
+  <script>
+   // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('12. Python 案例研究')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+ </body>
+</html>
