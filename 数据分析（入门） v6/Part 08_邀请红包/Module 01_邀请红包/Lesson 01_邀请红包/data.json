@@ -1,0 +1,55 @@
+{
+  "data": {
+    "lesson": {
+      "id": 832469,
+      "key": "df93a34d-902a-4583-9dae-a1a20a85eb5d",
+      "title": "邀请红包",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": "邀请好友加入课程，拿 200 元现金红包！\n好友也获得最高￥320 购课优惠，轻松开启学习之路",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": false,
+      "resources": null,
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 832480,
+          "key": "4a544d6a-29f0-4271-a09c-95cd339cc10f",
+          "title": "邀请红包",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "4a544d6a-29f0-4271-a09c-95cd339cc10f",
+            "completed_at": "2019-06-30T09:42:19.725Z",
+            "last_viewed_at": "2019-07-26T07:29:43.052Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 832482,
+              "key": "ea171932-c161-4803-90ee-3c0e0ffc4096",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<div class=\"text\" style=\" text-align:center;\">邀请好友加入课程，拿 200 元现金红包！</div>\n<div class=\"text\" style=\" text-align:center;\">好友也获得最高￥320 购课优惠，轻松开启学习之路</div>\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 832635,
+              "key": "21ca0259-383b-4bb3-9dce-067ae774be8c",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "\n\n\n\n<div style=\"position:relative;\">\n　　<img src=\"https://s3.cn-north-1.amazonaws.com.cn/u-img/Referral-back-pic\" />\n<a href=\"https://cn.udacity.com/referral?utm_source=classroom&utm_meidum=course&utm_campaign=referrareferralv2\" target=\"_blank\">\n　　<div style=\"position:relative; left:315px; top:-200px \"><font size=\"5\" color=\"ligblue\">立即一键邀请</font></div>\n</a>\n</div>",
+              "instructor_notes": ""
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
